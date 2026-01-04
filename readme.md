@@ -51,7 +51,7 @@ he objective of this project is to recommend the best weekend travel destination
 
         weekend-getaway-ranker/
         │
-        ├── weekend_getaway_ranker.py
+        ├── weekend_getaway_ranker.ipynb
         ├── Top Indian Places to Visit.csv
         └── README.md
 
