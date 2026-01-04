@@ -9,28 +9,19 @@ Weekend Getaway Ranker – Data Engineering Project
 he objective of this project is to recommend the best weekend travel destinations in India based on a user’s source city.
 
 - The system ranks tourist places using:
-
 - Distance from the source city
-
 - Google review rating
-
 - Popularity (number of Google reviews)
 
-
 ## Dataset Used
-
 ### Top Indian Places to Visit
 
 ## Important Columns Used:
 
 - Name – Tourist place name
-
 - City – Destination city
-
 - Google review rating – Quality of the place
-
 - Number of google review in lakhs – Popularity of the place
-
 - Other columns are available in the dataset but are not used to keep the project simple.
 
 ## Technologies Used
@@ -41,17 +32,11 @@ he objective of this project is to recommend the best weekend travel destination
 ## How the Project Works
 
 1. User enters a source city
-
 2. Source city coordinates are fetched from an offline city database
-
 3. Distance to each tourist place is calculated using the Haversine formula
-
 4. Rating, popularity, and distance are normalized
-
 5. A final score is calculated using weighted ranking
-
 6. Top weekend destinations are displayed
-
 
 ### Ranking Formula
 
